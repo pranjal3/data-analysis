@@ -118,7 +118,7 @@ _Problem Statement:_ The objective is to analyze historical Kickstarter campaign
 <br>
 
 **Dataset**<br>
-- Source: Kaggle <br>
+- Source: Kaggle <br> {https://www.kaggle.com/datasets/kemical/kickstarter-projects/discussion?sort=hotness}
 - Features: Project name, category, funding goal, pledged amount, currency, country, launch/deadline dates, backers, and final outcome <br>
 - Target variable: state (e.g., successful, failed, canceled) <br>
 - Dataset size: 378,000+ observations <br>
