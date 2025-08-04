@@ -149,3 +149,40 @@ SQL Server Management Studio (SSMS) <br>
 SQL Server Express <br>
 T-SQL (Transact-SQL) <br>
 <br> <br>
+
+**Project 5**<br>
+_Name:_ Fraudster Detection for Revolut<br>
+_Problem Statement:_ The objective of this take-home assignment is to build a machine learning model that can identify fraudulent users based on user profile data and transaction behavior. By engineering meaningful features and analyzing behavioral patterns, we aim to differentiate fraudsters from legitimate users and evaluate the performance of a fraud detection model.
+<br>
+<br>
+
+**Dataset**<br>
+- Source: Revolut (Take-home assignment dataset)<br>
+- Features: KYC status, birth year, account creation date, country, failed sign-in attempts, transaction amount, transaction type, entry method, currency, merchant country<br>
+- Target variable: IS_FRAUDSTER (Boolean: 1 if user is a fraudster, else 0)<br>
+- Dataset size: 9,944 users and 688,651 transactions<br>
+<br>
+
+**Workflow** <br>
+
+1. Data Exploration – Analyzed class imbalance, age trends, failed sign-ins, and transactional patterns<br>
+2. Feature Engineering – Created new features like age, chip usage rate, transaction amount statistics, and merchant diversity<br>
+3. Data Aggregation – Merged user and transaction-level data into a unified modeling dataset<br>
+4. Model Building – Trained a Random Forest classifier using stratified train-test split and class weighting<br>
+5. Evaluation – Assessed model performance using ROC-AUC, precision, recall, and feature importance<br>
+<br>
+
+**Key Results** <br>
+Fraud rate in the dataset: ~0.8% (highly imbalanced)<br>
+Fraudsters had fewer transactions but higher variance in amounts<br>
+Chip usage was significantly lower among fraudsters, suggesting riskier transaction methods<br>
+Failed sign-in attempts were notably higher for fraudulent users<br>
+Top predictive features included: transaction count, chip usage rate, average amount, and failed sign-ins<br>
+<br>
+
+**Tools & Technologies** <br>
+Jupyter Notebook<br>
+Python<br>
+Pandas, NumPy<br>
+Seaborn, Matplotlib<br>
+scikit-learn (RandomForestClassifier, train_test_split, classification_report, roc_auc_score)<br>
