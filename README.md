@@ -157,7 +157,8 @@ _Problem Statement:_ The objective of this take-home assignment is to build a ma
 <br>
 
 **Dataset**<br>
-- Source: Revolut (Take-home assignment dataset)<br>
+- Source: Stratascratch- Revolut (Take-home assignment dataset)<br>
+{https://platform.stratascratch.com/data-projects/fraudsters-detection}
 - Features: KYC status, birth year, account creation date, country, failed sign-in attempts, transaction amount, transaction type, entry method, currency, merchant country<br>
 - Target variable: IS_FRAUDSTER (Boolean: 1 if user is a fraudster, else 0)<br>
 - Dataset size: 9,944 users and 688,651 transactions<br>
