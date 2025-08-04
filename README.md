@@ -118,7 +118,7 @@ _Problem Statement:_ The objective is to analyze historical Kickstarter campaign
 <br>
 
 **Dataset**<br>
-- Source: Kaggle <br> {https://www.kaggle.com/datasets/kemical/kickstarter-projects/discussion?sort=hotness}
+- Source: Kaggle <br> https://www.kaggle.com/datasets/kemical/kickstarter-projects/discussion?sort=hotness
 - Features: Project name, category, funding goal, pledged amount, currency, country, launch/deadline dates, backers, and final outcome <br>
 - Target variable: state (e.g., successful, failed, canceled) <br>
 - Dataset size: 378,000+ observations <br>
@@ -158,7 +158,7 @@ _Problem Statement:_ The objective of this take-home assignment is to build a ma
 
 **Dataset**<br>
 - Source: Stratascratch- Revolut (Take-home assignment dataset)<br>
-{ https://platform.stratascratch.com/data-projects/fraudsters-detection }
+https://platform.stratascratch.com/data-projects/fraudsters-detection
 - Features: KYC status, birth year, account creation date, country, failed sign-in attempts, transaction amount, transaction type, entry method, currency, merchant country<br>
 - Target variable: IS_FRAUDSTER (Boolean: 1 if user is a fraudster, else 0)<br>
 - Dataset size: 9,944 users and 688,651 transactions<br>
